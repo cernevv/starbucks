@@ -1,0 +1,61 @@
+/* Importando a font EB Garamond (Google Fonts) */
+  @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600;700&display=swap');
+
+  /* _______________________________________________________________ */
+  /* Reset (Básico) */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  html {
+    /* Variáveis em CSS */
+
+    --corPrimaria: #017143;
+
+    --corSecundaria: #333;
+
+    --corTerciaria: #fff;
+
+  }
+
+  /* _________________________________________________________________ */
+  /* Main */
+
+  main {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;   /* Altura de 1 tela (view height) */
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--corTerciaria);  /* Chamada da variável */
+  }
+
+  /*_________________________________________________________________*/
+  /*Header*/
+
+  header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .logo:hover {
+    filter: invert(0.1); /* Controla o nível de contraste */
+  }
+
+  header ul {
+    position: relative;
+    display: flex; /* Põe os links em linha (Menu) */
+  }
+
