@@ -8,3 +8,8 @@ function toggleMenu () {
 function imgSlider(anything) {
     document.querySelector('.starbucks').src = anything;
 }
+
+function changeCircleColor (color) {
+    const circulo =document.querySelector('circulo')
+    circulo.style.background = color;
+}
